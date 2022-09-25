@@ -1,4 +1,4 @@
-CREATE TABLE AVSHAPOWALYANDEXRU__STAGING.group_log(
+CREATE TABLE IF NOT EXISTS AVSHAPOWALYANDEXRU__STAGING.group_log(
 	group_id int NOT NULL,
 	user_id int NOT NULL,
 	user_id_from int,
